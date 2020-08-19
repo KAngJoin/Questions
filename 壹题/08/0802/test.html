@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>实例</title>
+</head>
+
+<body>
+    <script>
+        /**
+         *  --2018.08.02--
+         *  · 以下代码输出结果及原因
+         * */
+
+        console.log((function f(n) {
+            return ((n > 1) ? n * f(n - 1) : n)
+        })(10))
+        //10到1 的阶乘 3628800
+
+        //命名函数 f() 以递归的方式调用自身，直到它调用f(1),然后简单的返回 1 .
+       
+    </script>
+
+</body>
+
+</html>

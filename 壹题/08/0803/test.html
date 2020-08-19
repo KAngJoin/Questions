@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        (function () {
+            try {
+                throw new Error();
+            } catch (y) {
+                var x = 1,
+                    y = 2;
+                console.log('catch x : ' + x) // 1
+                console.log('catch x : ' + y) // 2
+            }
+            console.log('function x : ' + x); // 1
+            console.log('y ' + y); // undefined
+            // 注意：错误的标识符只在catch块内部可见。所以这里全局的 y 还是undefined
+        })()
+    </script>
+
+</body>
+
+</html>
