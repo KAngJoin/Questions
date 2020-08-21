@@ -14,7 +14,7 @@
 
 👉[深度优先遍历和广度优先遍历](./JavaScript/深度优先遍历和广度优先遍历.md)
 
-👉[其它问题](./JavaScript/other.md)
+👉[问答题](./JavaScript/other.md)
 
 ### Vue
 
