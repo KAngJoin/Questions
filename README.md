@@ -6,7 +6,7 @@
 
 👉
 
-👉[ ['1', '2', '3']\.map\(parseInt\)输出什么？为什么？](./JavaScript/['1', '2', '3'].map(parseInt).md) 
+👉[['1', '2', '3'].map\(parseInt\)输出什么？为什么？](./JavaScript/['1', '2', '3'].map(parseInt).md) 
 
 👉[JavaScript空对象判断](./JavaScript/空对象判断.md)
 
